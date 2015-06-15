@@ -1,4 +1,4 @@
-fis.config.set('namespace', 'home');
+fis.config.set('namespace', 'h5');
 
 // chrome下可以安装插件实现livereload功能
 // https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei

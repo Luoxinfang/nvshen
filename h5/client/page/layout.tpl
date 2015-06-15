@@ -1,5 +1,5 @@
 <!doctype html>
-{% html lang="en" framework="home:static/js/mod.js" %}
+{% html lang="en" framework="h5:static/js/mod.js" %}
     {% head %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="icon" href="/static/favicon.ico">
         <title>{{ title }}</title>
-        {% require "home:static/js/jquery-1.10.2.js" %}
+        {% require "h5:static/js/jquery-1.10.2.js" %}
     {% endhead %}
 
     {% body %}
