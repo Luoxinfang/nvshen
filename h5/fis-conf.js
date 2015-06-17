@@ -10,10 +10,10 @@ fis.config.set('pack', {
     'client/static/css/bootstrap.css',
     'client/static/css/bootstrap-theme.css'
   ],
-  'static/pkg/lib.js':[
-    'client/static/js/jquery-1.10.2.js',
-    'client/static/js/bootstrap.js',
-    'client/static/js/mod.js'
+  //将常用js合并成lib.js
+  'static/pkg/lib.js': [
+    'client/static/js/bootstrap.css',
+    'client/static/js/bootstrap-theme.css'
   ]
 });
 

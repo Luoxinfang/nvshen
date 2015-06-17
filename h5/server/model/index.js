@@ -1,5 +1,6 @@
-module.exports.getData = function(){
-	return {
-		title : 'FIS',
-	};
+module.exports.getData = function () {
+  var appInfo = require('../models/appInfo.json');
+  return {
+    title: 'nvshen.me'
+  };
 };
