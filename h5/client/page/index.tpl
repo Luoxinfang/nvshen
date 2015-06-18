@@ -2,9 +2,11 @@
 
 {% block content %}
   <div class="wp">
+
+    <embed src="http://somgle-song.qiniudn.com/Shayne_Ward-Until_you.mp3" width="0" height="0"></embed>
     <div class="wp-inner">
       <div class="page page1">
-        <div class="c1">11</div>
+        <div class="c1">1</div>
         <div class="c2">2</div>
         <div class="c3">3</div>
       </div>
