@@ -3,7 +3,7 @@
   {% head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Å®Éñ,ÆßÏ¦,ÀñÎï,¾ªÏ²">
+    <meta name="description" content="">
     <meta name="author" content="nvshen.com">
     <link rel="icon" href="/static/favicon.ico">
     <title>nvshen.me</title>
@@ -17,5 +17,5 @@
 
     {% endblock %}
   {% endbody %}
-  {% require "h2:page/layout.tpl" %}
+{% require "h2:page/layout.tpl" %}
 {% endhtml %}

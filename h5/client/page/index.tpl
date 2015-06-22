@@ -3,7 +3,7 @@
 {% block content %}
   <div class="wp">
 
-    <embed src="http://somgle-song.qiniudn.com/Shayne_Ward-Until_you.mp3" width="0" height="0"></embed>
+    <audio id="bg-music" src="//somgle-song.qiniudn.com/Shayne_Ward-Until_you.mp3"></audio>
     <div class="wp-inner">
       <div class="page page1">
         <div class="c1">1</div>
@@ -22,6 +22,7 @@
 
 {% script %}
   require('h5:widget/js/index/index.js').init();
+
 {% endscript %}
 
 {% require "h5:page/index.tpl" %}
